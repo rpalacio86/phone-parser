@@ -1,0 +1,101 @@
+Hi Raul,
+
+ 
+
+Below is the test task for the Spirent project – please send the response or questions in reply to this email.
+
+ 
+
+Please note: the description is not 100% clearly written – same as the documentation in the project.  If you would like to ask us some questions, we are ready to clarify. The actual solution is expected to take around 4-8 hours. 
+
+ 
+
+Description
+
+ 
+
+Write an application that searches for phone numbers in a set of text files and prints them in a unified format.
+
+ 
+
+Files are located in a directory tree starting with <somewhere> and should be processed regardless of the nesting level. At the same time, only text files with .txt extension need to be processed, and the others should be ignored. Phone numbers in the source files can be given with the country code:
+
+ 
+
++7 812 number
+
+ 
+
++7 (495) number
+
+ 
+
++7812number
+
+ 
+
++7812 number
+
+ 
+
+7-812-number
+
+ 
+
+With a three-digit area code:
+
+ 
+
+(812) number
+
+ 
+
+812number
+
+ 
+
+812 number
+
+ 
+
+095-number
+
+ 
+
+Or none at all. At the same time the number can have different spellings:
+
+ 
+
+123-4567
+
+ 
+
+123-45-67
+
+ 
+
+1234567
+
+ 
+
+If the city code is not specified, it is considered equal to 812, if the country code is not specified, it is considered equal to 7. You need to find all the numbers in all of the files. Change formatting to the unified "full" format
+
+ 
+
++7 (812) 123-4567
+
+ 
+
+remove duplicates and print the list of numbers in ascending order.
+
+ 
+
+You may use any programming language. Instruction on how to run should be provided along with the solution.
+
+ 
+
+ 
+
+ 
+
+Thank you!
